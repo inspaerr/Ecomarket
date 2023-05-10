@@ -1,0 +1,49 @@
+html {
+  background-color: #10241c;
+}
+
+@font-face {
+    font-family: "myFonth1";
+    src: url("fonts/Oswald-Medium.ttf");
+}
+@font-face {
+    font-family: "myFonth2";
+    src: url("fonts/Oswald-Regular.ttf");
+}
+@font-face {
+    font-family: "myFonth3";
+    src: url("fonts/Oswald-Light.ttf");
+}
+h1{
+  text-align: center;
+  color: rgb(176, 176, 176);
+font-family: Georgia, Verdana, sans-serif;
+  font-size: 45px;
+
+}
+button {
+  margin: 0 auto;
+  display: block;
+  font-family: Georgia, Verdana, sans-serif;
+  font-size: 40px;
+  color: rgb(105, 105, 105);
+  background-size: 100%;
+  width: 50%;
+  margin-bottom: 50px;
+}
+  #btn1 {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+  #btn2 {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+  .no-underline {
+    text-decoration: none;
+    font-style: italic;
+  }
+
+  button:hover {
+    color: #10241c;
+  }
